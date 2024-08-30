@@ -70,7 +70,7 @@ def goodbye_world():
 #
 # Then, change the ellipsis in the print statement below to print
 # ``entity``.
-def hello(entity=name):
+def hello(entity=world):
     """Says hello to ``entity``.
 
     Says hello to ``entity``.
@@ -89,7 +89,7 @@ def hello(entity=name):
 
 # Copy and modify the ``hello`` function above so that it says
 # "Goodbye" instead of hello.
-def goodbye(entity=name):
+def goodbye(entity=world):
     """Says goodbye to ``entity``."""
 
     print("Goodbye, " + "entity" + "!")
